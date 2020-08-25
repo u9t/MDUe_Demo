@@ -157,6 +157,8 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager</li>
 
+<li>$:/config/RelinkOnRename</li>
+
 <li>$:/config/u9t/PluginLibraryU9T/latest</li>
 
 <li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-here</li>
@@ -240,6 +242,8 @@ Error message and password prompt
 <li>$:/state/toc/Inhalt/Fortbildungen und Events-Organisation-1561633854</li>
 
 <li>$:/state/toc/Inhalt/TiddlyWiki - Wissenswertes-Einstieg-1561633854</li>
+
+<li>$:/state/toc/Inhalt/TiddlyWiki - Wissenswertes-Funktionen-1561633854</li>
 
 <li>$:/state/toc/Inhalt/TiddlyWiki - Wissenswertes-Glossar-1561633854</li>
 
@@ -349,6 +353,8 @@ Error message and password prompt
 
 <li>Funktionen</li>
 
+<li>GettingStarted</li>
+
 <li>GitHub</li>
 
 <li>Glossar</li>
@@ -377,7 +383,7 @@ Error message and password prompt
 
 <li>Lizenz: Core und Plugins</li>
 
-<li>Lizenz: MDÜ_Demo</li>
+<li>Lizenz: MDUe_Demo</li>
 
 <li>Makro-Befehle</li>
 
@@ -413,8 +419,6 @@ Error message and password prompt
 
 <li>Plugin: Relink</li>
 
-<li>Plugin: Text Slicer</li>
-
 <li>Podcasts</li>
 
 <li>Registerkarte &quot;Tools&quot;</li>
@@ -444,8 +448,6 @@ Error message and password prompt
 <li>Spickzettel</li>
 
 <li>Sprache einstellen</li>
-
-<li>sprachliche Korrekturen in GettingStarted</li>
 
 <li>Story river - story view</li>
 
@@ -535,6 +537,9 @@ Error message and password prompt
 </div>
 <div created="20200720094519534" modified="20200720094519534" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager">
 <pre>show</pre>
+</div>
+<div created="20200825123647594" creator="BB / MP" modified="20200825123647595" modifier="BB / MP" title="$:/config/RelinkOnRename">
+<pre>yes</pre>
 </div>
 <div caption="Unite (u9t) Library (latest)" created="20200605142858499" modified="20200605145627394" tags="$:/tags/PluginLibrary" title="$:/config/u9t/PluginLibraryU9T/latest" type="text/vnd.tiddlywiki" url="https://u9t.github.io/editions/pluginlibraryU9T/library/latest/index.html">
 <pre>Unite (u9t) plugin library latest version!
@@ -14625,8 +14630,8 @@ Error message and password prompt
 <div created="20200720115927204" creator="BB" modified="20200720115928116" modifier="BB" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/System</pre>
 </div>
-<div created="20200720112643575" creator="BB" modified="20200825090319205" modifier="BB / MP" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Recent</pre>
+<div created="20200720112643575" creator="BB" modified="20200825122344157" modifier="BB / MP" title="$:/state/tab/sidebar--595412856">
+<pre>Inhalt</pre>
 </div>
 <div created="20200730134701523" creator="BB" modified="20200805081801219" modifier="BB / MP" title="$:/state/toc/Inhalt-Fortbildungen und Events-1561633854">
 <pre>close</pre>
@@ -14634,7 +14639,7 @@ Error message and password prompt
 <div created="20200720114756589" creator="BB" modified="20200730134727587" modifier="BB" title="$:/state/toc/Inhalt-Journal-1561633854">
 <pre>close</pre>
 </div>
-<div created="20200730134709286" creator="BB" modified="20200730134711665" modifier="BB" title="$:/state/toc/Inhalt-Medienarchiv-1561633854">
+<div created="20200730134709286" creator="BB" modified="20200825123744380" modifier="BB / MP" title="$:/state/toc/Inhalt-Medienarchiv-1561633854">
 <pre>close</pre>
 </div>
 <div created="20200720115118788" creator="BB" modified="20200730142004852" modifier="BB / MP" title="$:/state/toc/Inhalt-neu-1561633854">
@@ -14643,14 +14648,14 @@ Error message and password prompt
 <div created="20200720115121144" creator="BB" modified="20200730143646364" modifier="BB / MP" title="$:/state/toc/Inhalt-noch bearbeiten bzw. kontrollieren-1561633854">
 <pre>open</pre>
 </div>
-<div created="20200730134715508" creator="BB" modified="20200730141408037" modifier="BB / MP" title="$:/state/toc/Inhalt-Notizen-1561633854">
+<div created="20200730134715508" creator="BB" modified="20200825123741359" modifier="BB / MP" title="$:/state/toc/Inhalt-Notizen-1561633854">
 <pre>close</pre>
 </div>
 <div created="20200720114838364" creator="BB" modified="20200813094413580" modifier="BB / MP" title="$:/state/toc/Inhalt-TiddlyWiki - Wissenswertes-1561633854">
 <pre>open</pre>
 </div>
-<div created="20200805081520617" creator="BB / MP" modified="20200813094351970" modifier="BB / MP" title="$:/state/toc/Inhalt-TODO-1561633854">
-<pre>close</pre>
+<div created="20200805081520617" creator="BB / MP" modified="20200825123859684" modifier="BB / MP" title="$:/state/toc/Inhalt-TODO-1561633854">
+<pre>open</pre>
 </div>
 <div created="20200730141409837" creator="BB / MP" modified="20200805083909255" modifier="BB / MP" title="$:/state/toc/Inhalt-Videos-1561633854">
 <pre>open</pre>
@@ -14664,7 +14669,10 @@ Error message and password prompt
 <div created="20200720114839508" creator="BB" modified="20200730134722353" modifier="BB" title="$:/state/toc/Inhalt/TiddlyWiki - Wissenswertes-Einstieg-1561633854">
 <pre>close</pre>
 </div>
-<div created="20200730135855026" creator="BB / MP" modified="20200813094415493" modifier="BB / MP" title="$:/state/toc/Inhalt/TiddlyWiki - Wissenswertes-Glossar-1561633854">
+<div created="20200825123731835" creator="BB / MP" modified="20200825123734649" modifier="BB / MP" title="$:/state/toc/Inhalt/TiddlyWiki - Wissenswertes-Funktionen-1561633854">
+<pre>close</pre>
+</div>
+<div created="20200730135855026" creator="BB / MP" modified="20200825123729866" modifier="BB / MP" title="$:/state/toc/Inhalt/TiddlyWiki - Wissenswertes-Glossar-1561633854">
 <pre>close</pre>
 </div>
 <div created="20200730134723503" creator="BB" modified="20200730134724128" modifier="BB" title="$:/state/toc/Inhalt/TiddlyWiki - Wissenswertes-Ressourcen-1561633854">
@@ -14676,7 +14684,7 @@ Error message and password prompt
 <div created="20200720095516325" creator="B" modified="20200730135357703" modifier="BB / M" title="$:/status/UserName">
 <pre>BB / MP</pre>
 </div>
-<div created="20200825121403846" creator="BB / MP" list="$:/ControlPanel GettingStarted Grundlegendes! Medienarchiv" modified="20200825121442976" modifier="BB / MP" title="$:/StoryList">
+<div created="20200825121728716" creator="BB / MP" list="[[Plugin: Context Search]] [[Plugin: Bundler]] TODO [[Plugin:  GSD5 Ticklers]] Dokumentation Videos $:/ControlPanel GettingStarted Grundlegendes! Medienarchiv" modified="20200825124021514" modifier="BB / MP" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200720112042704" creator="BB" modified="20200720114458437" modifier="BB" title="$:/temp/advancedsearch">
@@ -14740,7 +14748,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200730143721896" creator="BB / MP" modified="20200730143721896" modifier="BB / MP" title="$:/temp/NewTagName">
+<div created="20200730143721896" creator="BB / MP" modified="20200825123503557" modifier="BB / MP" title="$:/temp/NewTagName">
 <pre></pre>
 </div>
 <div author="Mario Pietsch" core-version="&gt;=5.1.15" created="20200720113018259" creator="BB" dependents="" description="AdvancedSearchPlus: Adds some powerfull search tools" list="readme license history" modified="20200720113018259" modifier="BB" original-plugin-type="plugin" original-tags="" original-title="$:/plugins/wikilabs/advanced-search-plus" original-type="application/json" readme="* Adds the &quot;Advanced Search&quot; tab also to the right sidebar
@@ -15059,7 +15067,7 @@ CC-BY-NC-SA - {{$:/themes/wikilabs/slant-01/license}}" requires-reload="no" serv
 <div created="20200720113021140" creator="BB" modified="20200720113021660" modifier="BB" title="$:/temp/RemoteAssetSearch/$:/config/wikilabs/PluginLibraryWL/latest">
 <pre>link</pre>
 </div>
-<div created="20200720112041270" creator="BB / MP" modified="20200813094337634" modifier="BB / MP" title="$:/temp/search">
+<div created="20200720112041270" creator="BB / MP" modified="20200825123856995" modifier="BB / MP" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20200720113018255" creator="BB" modified="20200720113018255" modifier="BB" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://wikilabs.github.io/editions/pluginlibraryWL/library/latest/index.html" url="https://wikilabs.github.io/editions/pluginlibraryWL/library/latest/index.html">
@@ -15232,7 +15240,7 @@ Außerdem sinnvoll:
 <div created="20200628001602888" creator="BB" modified="20200715143226653" modifier="BB" tags="[[nicht löschen]] Funktionen" title="Diese Tiddler bitte nicht löschen!">
 <pre>Tiddler mit dem Tag ''nicht löschen'' dienen als Tag und sollte daher nicht gelöscht werden.</pre>
 </div>
-<div created="20200626120308974" creator="MP" modified="20200730143956868" modifier="BB / MP" tags="Einstieg TODO" title="Dokumentation">
+<div created="20200626120308974" creator="MP" modified="20200825123334703" modifier="BB / MP" tags="Einstieg TODO" title="Dokumentation">
 <pre>''Integriertes Plugins''
 
 Systemsteuerung / Plugins / Suche / Offizielles Plugin-Verzeichnis. Installieren Sie das folgende Plugin --&gt; TW5.com Docs: Documentation from tiddlywiki.com
@@ -15367,6 +15375,41 @@ Found &lt;$count filter=&quot;[tag{$:/temp/myfavtag}]&quot;/&gt; matching tiddle
 <div color="#008080" created="20200626144732337" creator="MP" modified="20200717143932695" modifier="MP" tags="[[TiddlyWiki - Wissenswertes]] [[nicht löschen]]" title="Funktionen">
 <pre>&lt;&lt;list-links &quot;[tag{!!title}]&quot;&gt;&gt;</pre>
 </div>
+<div created="20200825122657673" creator="BB / MP" modified="20200825123127354" modifier="BB / MP" title="GettingStarted">
+<pre>\define lingo-base() $:/language/ControlPanel/Basics/
+Willkommen bei ~TiddlyWiki, einem persönlichen nicht-linearen Web-Notizbuch.
+
+Vor dem Start vergewissern Sie sich, dass Sie dieses Wiki auch wirklich speichern können. Weitere Informationen finden Sie für:
+
+* Österreich: https://tiddlywiki.com/languages/de-AT
+* Deutschland: https://tiddlywiki.com/languages/de-DE
+* Allgemein (Englisch): https://tiddlywiki.com 
+
+Außerdem ist das Speichern in einer Reihe von Tiddlern beschrieben, deren Titel jeweils mit &quot;Speichern:&quot; beginnt.
+
+Erste Schritte:
+
+*Erstellen Sie einen neuen Tiddler mit dem &quot;Plus-Button&quot; in der Navigationsleiste über dem Suchfeld.
+*Einstellungen können im Control-Panel vorgenommen werden, siehe: &quot;Zahnrad-Button&quot;. 
+**Das Anzeigen dieses Tiddlers können Sie verhindern, indem Sie unter Control-Panel/Info/Basis im Feld &quot;Standard-Tiddler&quot; die Einträge ändern. -&gt; Steht auch in Grundlegendes!, solche Anweisungen werden immer in Klickrichtung formuliert. 
+*Speichern wird mit dem &quot;Speichern-Button&quot; in der Navigationsleiste ausgelöst. 
+* Österreich: [[Weitere Informationen zu WikiText|https://tiddlywiki.com/languages/de-AT/index.html#WikiText]]
+* Deutschland: [[Weitere Informationen zu WikiText|https://tiddlywiki.com/languages/de-DE/index.html#WikiText]]
+
+Hinweis: Die österreichische und deutsche Version unterscheiden sich momentan nur in der Flagge, die bei der Standard-Sprachauswahl angezeigt wird. In Zukunft können Beschriftungen der Benutzeroberfläche geringfügig von einander abweichen. z. B.: Jänner - Januar.
+
+!! Einrichten dieses ~TiddlyWiki
+
+&lt;div class=&quot;tc-control-panel&quot;&gt;
+
+|&lt;$link to=&quot;$:/SiteTitle&quot;&gt;&lt;&lt;lingo Title/Prompt&gt;&gt;&lt;/$link&gt; |&lt;$edit-text tiddler=&quot;$:/SiteTitle&quot; default=&quot;&quot; tag=&quot;input&quot;/&gt; |
+|&lt;$link to=&quot;$:/SiteSubtitle&quot;&gt;&lt;&lt;lingo Subtitle/Prompt&gt;&gt;&lt;/$link&gt; |&lt;$edit-text tiddler=&quot;$:/SiteSubtitle&quot; default=&quot;&quot; tag=&quot;input&quot;/&gt; |
+|&lt;$link to=&quot;$:/DefaultTiddlers&quot;&gt;&lt;&lt;lingo DefaultTiddlers/Prompt&gt;&gt;&lt;/$link&gt; |&lt;&lt;lingo DefaultTiddlers/TopHint&gt;&gt;&lt;br&gt; &lt;$edit-text tag=&quot;textarea&quot; tiddler=&quot;$:/DefaultTiddlers&quot;/&gt;&lt;br&gt;//&lt;&lt;lingo DefaultTiddlers/BottomHint&gt;&gt;// |
+&lt;/div&gt;
+
+See the [[control panel|$:/ControlPanel]] for more options.
+</pre>
+</div>
 <div created="20200715144253937" creator="BB" modified="20200730140937872" modifier="BB / MP" tags="Ressourcen" title="GitHub">
 <pre>GitHub ist ein netzbasierter Dienst für Software-Entwicklungsprojekte.
 [[2018 wurde GitHub|https://github.blog/2018-06-04-github-microsoft/]] von [[Microsoft gekauft|https://news.microsoft.com/2018/06/04/microsoft-to-acquire-github-for-7-5-billion/]].
@@ -15410,7 +15453,7 @@ Zum Importieren:
 
 ''Achtung'': Entfernen Sie zunächst die Haken vor den einzelnen Einträge, da Sie andernfalls auch die noch nicht kontrollierten Tiddler importieren.</pre>
 </div>
-<div caption="{{$:/language/SideBar/Contents/Caption}}" color="#d11f81" created="20200720100708806" creator="BB" list="[[Fortbildungen und Events]] Journal Medienarchiv neu [[noch bearbeiten bzw. kontrollieren]] Notizen [[TiddlyWiki - Wissenswertes]] Videos TODO [[Lizenz: MDÜ_Demo]]" list-before="$:/core/ui/SideBar/Open" modified="20200730144039554" modifier="BB / MP" tags="$:/tags/SideBar" title="Inhalt">
+<div caption="{{$:/language/SideBar/Contents/Caption}}" color="#d11f81" created="20200720100708806" creator="BB" list="[[Fortbildungen und Events]] Journal Medienarchiv neu [[noch bearbeiten bzw. kontrollieren]] Notizen [[TiddlyWiki - Wissenswertes]] Videos TODO [[Lizenz: MDUe_Demo]]" list-before="$:/core/ui/SideBar/Open" modified="20200825123651573" modifier="BB / MP" tags="$:/tags/SideBar" title="Inhalt">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
 
 &lt;&lt;toc-selective-expandable 'Inhalt'&gt;&gt;
@@ -15459,7 +15502,7 @@ Link: [[Video zu Tiddler-Manager|https://youtu.be/Cj-y4ftfCsM?list=PLuiC_HFhI4Ow
 
 In dem Verzeichnis auf die einzelnen Einträge klicken: Informationen zu Lizenzen, Urhebern und z. T. Dokumentation</pre>
 </div>
-<div created="20200719103001418" creator="BB" modified="20200730143620605" modifier="BB / MP" tags="Inhalt" title="Lizenz: MDÜ_Demo">
+<div created="20200719103001418" creator="BB" modified="20200825123651566" modifier="BB / MP" tags="Inhalt" title="Lizenz: MDUe_Demo">
 <pre>!! Haftungsausschluss
 Die Demodatei wird kostenfrei zu Testzwecken überlassen, Gewährleistungs- und Haftungsansprüche sind daher ausgeschlossen. Regelmäßige Backups werden dringend empfohlen.
 
@@ -15588,7 +15631,7 @@ Quelle: https://tiddlywiki.com/languages/de-AT/static/Permaview.html
 * für Endbenutzer
 * vgl. https://tiddlywiki.com/#Macros</pre>
 </div>
-<div created="20200627104511215" creator="BB / MP" modified="20200730143728178" modifier="BB / MP" tags="[[lugin: GSD5]] TODO" title="Plugin:  GSD5 Ticklers">
+<div created="20200627104511215" creator="BB / MP" modified="20200825123513821" modifier="BB / MP" tags="TODO [[Plugin: GSD5]]" title="Plugin:  GSD5 Ticklers">
 <pre>Ticklers are reminders that appear as TiddlyWiki5 alerts. This allows for Actions to have deadlines and allows for the ticklers to be present in your GSD5 tool as opposed to using an existing calendar tool like Google Calendar, Outlook, or the like.
 
 Ticklers are not a calendar tool, just a'' reminder tool''.
@@ -15635,7 +15678,7 @@ https://bimlas.gitlab.io/tw5-disqus/
 
 //Hinweis: Diese Empfehlung wurde nur teilweise von uns geprüft.//</pre>
 </div>
-<div created="20200626182858761" creator="MP" modified="20200730143933985" modifier="BB / MP" tags="Funktionen" title="Plugin: GSD5">
+<div color="#400080" created="20200626182858761" creator="MP" modified="20200825123530443" modifier="BB / MP" tags="Funktionen" title="Plugin: GSD5">
 <pre>Diese Edition ist angelehnt an &quot;Getting Things Done&quot;.
 
 Aus namensrechtlichen Gründen heißt die Edition: “Getting Stuff Done” (GSD5): http://gsd5.tiddlyspot.com/
@@ -15644,15 +15687,6 @@ Aus namensrechtlichen Gründen heißt die Edition: “Getting Stuff Done” (GSD
 </div>
 <div created="20200627105012403" modified="20200627105137193" tags="Funktionen" title="Plugin: Relink">
 <pre>Dieses Plugin ist in der MDÜ_Demo.html installiert und sorgt dafür, dass Titeländerungen systemweit nachgezogen werden, damit alle Verlinkungen erhalten bleiben.</pre>
-</div>
-<div created="20200627105203875" creator="BB" modified="20200730143518130" modifier="BB / MP" tags="Funktionen TODO" title="Plugin: Text Slicer">
-<pre>Mit dem Text Slicer kann man längere Dokumente in das Wiki importieren und dann in sinnvolle Einheiten untergliedern.
-
-https://tiddlywiki.com/editions/text-slicer/
-
-This plugin is under active development, and is subject to change in the future. It is currently only intended for advanced users. The tools are in the early stages of development, and likely to need some customisation to do what you need.
-
-</pre>
 </div>
 <div created="20200628013116040" creator="BB" modified="20200719120148934" modifier="BB" tags="[[nicht löschen]] Medienarchiv" title="Podcasts">
 <pre>&lt;&lt;list-links &quot;[tag{!!title}]&quot;&gt;&gt;</pre>
@@ -15821,31 +15855,6 @@ Cheat sheet</pre>
 
 
 </pre>
-</div>
-<div created="20200719074103682" creator="BB" modified="20200730144821681" modifier="BB / MP" tags="TODO" title="sprachliche Korrekturen in GettingStarted">
-<pre>GettingStarted
-
-Willkommen bei TiddlyWiki, einem persönlichen nicht-linearen Web-Notizbuch.
-
-Vor dem Start~~,~~ vergewissern Sie sich, dass Sie dieses Wiki auch wirklich speichern können. Weitere Informationen finden Sie für:
-
-    Österreich: https://tiddlywiki.com/languages/de-AT
-    Deutschland: https://tiddlywiki.com/languages/de-DE
-    Allgemein (''E''nglisch): https://tiddlywiki.com 
-
-''Außerdem ist das Speichern in einer Reihe von Tiddlern beschrieben, deren Titel jeweils mit &quot;Speichern:&quot; beginnt.''
-
-Erste Schritte:
-
-    Erstellen Sie einen neuen Tiddler mit dem &quot;Plus-Button&quot; in der Navigationsleiste ''über dem Suchfeld.''
-    Einstellungen können im ''Control-Panel'' vorgenommen werden'', siehe'': &quot;Zahnrad-Button&quot;.
-        Das Anzeigen dieses Tiddlers können Sie verhindern, indem Sie unter Control-Panel/Info/Basis im Feld &quot;''Standard-Tiddler''&quot; die Einträge ändern. -&gt; Steht auch in Grundlegendes!, solche Anweisungen werden immer in Klickrichtung formuliert.
-    Speichern wird mit dem &quot;Speichern-Button&quot; in der Navigationsleiste ausgelöst.
-    Österreich: Weitere Informationen zu WikiText
-    Deutschland: Weitere Informationen zu WikiText
-
-Hinweis: Die österreichische und deutsche Version unterscheiden sich momentan nur in der Flagge, die bei der Stand''ard-Sp''rachauswahl angezeigt wird. In Zukunft können Beschriftungen der Benutzeroberfläche geringfügig von einander abweichen. ~~zB~~ z. B.: Jänner - Januar.
-Einrichten ~~dieser ~~ dieses TiddlyWiki''s''</pre>
 </div>
 <div created="20200626162612172" creator="BB" modified="20200730144624467" modifier="BB / MP" tags="Glossar" title="Story river - story view">
 <pre>!! Story River
@@ -16018,7 +16027,7 @@ Eine Leerzeile einfügen. Fertig!
 <div created="20200805081338065" creator="BB / MP" modified="20200805081355108" modifier="BB / MP" tags="" title="Video-Playlist-Link">
 <pre>https://www.youtube.com/playlist?list=PLuiC_HFhI4Owt5GwILzwpmUr6WkKKHiSm</pre>
 </div>
-<div created="20200730141400769" creator="BB / MP" modified="20200730141956408" modifier="BB / MP" tags="Inhalt" title="Videos">
+<div color="#800040" created="20200730141400769" creator="BB / MP" modified="20200825123545811" modifier="BB / MP" tags="Inhalt" title="Videos">
 <pre>&lt;&lt;list-links &quot;[tag{!!title}]&quot;&gt;&gt;</pre>
 </div>
 <div created="20200626125834172" creator="MP" modified="20200805080915210" modifier="BB / MP" tags="Ressourcen" title="Weitere Links">
